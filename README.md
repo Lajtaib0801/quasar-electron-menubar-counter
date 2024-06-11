@@ -12,7 +12,7 @@ npm install --legacy-peer-deps
 quasar dev -m electron
 ```
 
-### Build the app for production
+### Build the app for production (win32 by default, modify the quasar.config.js if you want other platform)
 ```bash
 quasar build -m electron
 ```

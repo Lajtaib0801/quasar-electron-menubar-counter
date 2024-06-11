@@ -10,7 +10,7 @@ const mb = menubar({
   index: process.env.APP_URL,
   icon: process.env.DEBUGGING
     ? path.resolve(__dirname, "../../src-electron/icons/PlusIcon.png")
-    : path.resolve(__dirname, "src-electron/icons/PlusIcon.png"),
+    : path.resolve(__dirname, "icons/PlusIcon.png"),
   browserWindow: {
     width: 270,
     height: 170,
